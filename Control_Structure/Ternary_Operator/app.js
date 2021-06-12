@@ -1,6 +1,4 @@
-let score = 40;
+let score = 60;
 let pass;
-pass = score>50 ? "Pass score" : "Not pass score";
+pass = score>50 ? "Pass score" : "Not pass score";//condition ? true : false
 console.log(pass);
-console.log("hi");
-console.log("hi");
