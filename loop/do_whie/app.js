@@ -1,8 +1,7 @@
-let count = 0;
-
-
+let count = 1;
 
 do{
     console.log(count);
-}while(count>5)
+    count++;
+}while(count<=5)
     
