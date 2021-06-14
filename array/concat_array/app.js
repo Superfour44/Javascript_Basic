@@ -1,9 +1,5 @@
-let colors = ["red","white","blue","yellow","purple"]
-// let x = colors.toString();//convert array to string
-// let x = colors.join(" ");//convert array to string change "," -> " "
-// console.log(x);
+let vetgetable = ["Lemongrass","lettuce"];
+let fruit = ["Orange","Strawberry"];
 
-// console.log("Before pop",colors);
-let x = colors.pop();//x = member of array remove
-console.log(x);
-// console.log("After pop",colors);
+vetgetable = vetgetable.concat(fruit);
+console.log(vetgetable);
