@@ -47,7 +47,15 @@ function setSalary(salary){
     return salary += bonus
 }
 
-let Man1 = setSalary(15000);
-let Man2 = setSalary(17000);
-console.log("Salary Man1:",Man1);
-console.log("Salary Man2:",Man2);
+// let Man1 = setSalary(15000);
+// let Man2 = setSalary(17000);
+// console.log("Salary Man1:",Man1);
+// console.log("Salary Man2:",Man2);
+
+//function definde default parameter value
+function NameAndAddress(fname,lname,city="Bankok") {
+    console.log("Name:",fname,"LastName:",lname,"city:",city);
+}
+
+NameAndAddress("Super","Four");
+NameAndAddress("Mark","Kelvin","Newyork");
