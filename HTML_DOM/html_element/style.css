@@ -1,0 +1,14 @@
+.ChangeNameClass{
+    color:purple;
+    background-color: black;
+}
+
+.light{
+    background-color: orange;
+    color: black;
+}
+
+.dark{
+    background-color: black;
+    color: white;
+}
